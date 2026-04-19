@@ -1,0 +1,22 @@
+{
+  "name": "@hxp_04_11_2000/react_lib",
+  "version": "1.0.88",
+  "description": "Virtual UI React Component Library",
+  "author": "Harshit Paliwal",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
