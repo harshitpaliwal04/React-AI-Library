@@ -30,7 +30,7 @@ app.use("/api/user", userRouter)
 app.use("/api/component", componentRouter)
 app.use("/api/payment", paymentRouter)
 
-const PORT = process.env.PORT ;
+const PORT = process.env.PORT || 8000;
 
 app.listen(PORT, () => {
   console.log(`✅ Server running on port ${PORT}`);
